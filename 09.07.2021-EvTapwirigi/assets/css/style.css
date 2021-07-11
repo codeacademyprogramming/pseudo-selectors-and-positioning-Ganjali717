@@ -1,0 +1,187 @@
+.google{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.googleform{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    width: 30%;
+    height: 480px;
+    border: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 10px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+.googleform img{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    width: 80px;
+    height: 50px;
+}
+.googleform .textgoogle{
+    position: absolute;
+    top: 80px;
+    left: 125px;
+    text-align: center;
+}
+.googleform .textgoogle p{
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+
+.googleform .textgoogle h1{
+    color: #202124;
+    font-weight: 400;
+    font-size: 24px;
+}
+.googleform .formtxt{
+    width: 80%;
+    position: absolute;
+    top: 200px;
+    left: 35px;
+}
+.googleform .formtxt input[type=text]{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    border-radius: 5px;
+}
+.googleform .formtxt input:focus{
+    outline: none;
+    border: 2px solid #1a73e8;
+}
+
+input::-webkit-input-placeholder {
+    transition: 0.1s ease-in;
+    overflow: hidden;
+    background-color: white;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -25px;
+   
+    transition: 0.1s ease-out;
+}
+
+
+
+input[type="text"]:focus{
+    height: 50px;
+    padding-bottom: 0px;
+    
+    transition: 0.2s ease-in;
+}
+
+input[type="text"]{
+    height: 50px;
+    transition: 0.2s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.googleform .formtxt .form a{
+    font-size: 15px;
+    text-align: left;
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.googleform .txt2{
+    width: 380px;
+    position: absolute;
+    bottom: 100px;
+    left: 35px;
+    color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+}
+
+.googleform .txt2 a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+
+.googleform .googlebtn {
+   width: 100px;
+}
+.googleform .googlebtn a{
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    text-decoration: none;
+    padding: 10px;
+    color: #1a73e8;
+}
+.googlebtn a:hover{
+    background-color: rgba(197, 197, 223, 0.13);
+}
+
+.googlebtn button{
+    position: absolute;
+    bottom: 45px;
+    right: 38px;
+    background-color: #1a73e8;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+
+.google .underform{
+    position: absolute;
+    left: 500px;
+    height: 100px;
+    bottom: 30px;
+}
+.google .underform p{
+    display: inline;
+    font-size: 15px;
+    margin-right: 70px;
+}
+.google .underform ul{
+    display: inline-block;
+    list-style: none;
+}
+.google .underform ul li{
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px;
+}
+.google .underform ul li a{
+    text-decoration: none;
+    color: #757575;
+    
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.google .underform ul li:hover{
+    background-color: #75757528;
+}
