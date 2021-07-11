@@ -33,8 +33,6 @@
     letter-spacing: 0.1px;
     line-height: 1.5;
 }
-
-
 .googleform .textgoogle h1{
     color: #202124;
     font-weight: 400;
@@ -42,7 +40,7 @@
 }
 .googleform .formtxt{
     width: 80%;
-    position: absolute;
+    position: relative;
     top: 200px;
     left: 35px;
 }
@@ -57,25 +55,26 @@
     outline: none;
     border: 2px solid #1a73e8;
 }
-
-input::-webkit-input-placeholder {
-    transition: 0.1s ease-in;
+.input-label{
+    position: absolute;
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: 400;
     overflow: hidden;
-    background-color: white;
     text-overflow: ellipsis;
     white-space: nowrap;
+    left: 8px;
+    top: 17px;
+    padding: 0 8px;
+    transition: .25s;
 }
-
-input:focus::-webkit-input-placeholder {
-    font-size: .75em;
-    position: relative;
-    top: -25px;
-   
-    transition: 0.1s ease-out;
+input:focus + .input-label,
+input:active + .input-label{
+    color: #1a73e8;
+    top: -6px;
+    background-color: white;
+    font-size: 11px;
 }
-
-
-
 input[type="text"]:focus{
     height: 50px;
     padding-bottom: 0px;
@@ -87,23 +86,6 @@ input[type="text"]{
     height: 50px;
     transition: 0.2s ease-in;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .googleform .formtxt .form a{
     font-size: 15px;
@@ -165,6 +147,12 @@ input[type="text"]{
     display: inline;
     font-size: 15px;
     margin-right: 70px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.google .underform span{
+    width: 100%;
+    color: black;
 }
 .google .underform ul{
     display: inline-block;
